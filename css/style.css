@@ -1,0 +1,44 @@
+body {
+    background: url("https://engi1234.github.io/img/download/water.jpg");
+    background-repeat: repeat-y;
+    background-position: ;
+    position: relative;
+    animation: myfirst 10s linear infinite;
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background-position: 0% 100%;}  
+    50%  {background-position: 0% 50%;}
+  100%  {background-position: 0% 0%;}
+ 
+}
+     
+#island1 {
+  position: absolute;
+  width: 2000px;
+  height: 1000px;
+  top: 225px;
+  left: 18px;
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+
+ #island1{
+    background: url("https://engi1234.github.io/img/download/hugeisland.PNG");
+    background-repeat: repeat-y;
+    background-position: ;
+    position: relative;
+    animation: mysecond 10s linear infinite;
+}
+@keyframes mysecond {
+    0%   {background-position: 0% -100%;}  
+    50%  {background-position: 0% -50%;}
+  100%  {background-position: 0% 0%;}
+ 
+}
+
+
+
