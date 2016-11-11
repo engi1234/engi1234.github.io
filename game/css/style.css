@@ -1,0 +1,104 @@
+body {
+    background: url("https://engi1234.github.io/img/download/sea.jpg");
+    background-repeat: repeat-y;
+    background-position: ;
+    position: relative;
+    animation: myfirst 3s linear infinite;
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background-position: 0% 100%;}  
+    50%  {background-position: 0% 50%;}
+  100%  {background-position: 0% 0%;}
+ 
+}
+     
+#bullet {
+  background: url("https://engi1234.github.io/img/download/shoot.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -100%;
+  left: 29%;
+  opacity: 1;
+  transition: top 0.3s linear;
+}
+
+
+#hero {
+  background: url("https://engi1234.github.io/img/download/hero.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 450px;
+  position: fixed;
+  bottom: 10%;
+  left: 25%;
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 0.00000001s;
+  transition-timing-function: linear;
+}
+
+
+
+}
+@keyframes flying {
+    0%   {top:-1200px;}
+    100% {top:1200px;}
+ }
+
+@-webkit-keyframes flying {
+    0%   {top:-50px;}
+    100% {top:1200px;}
+ }
+
+#enemy1 {
+    background: url("https://engi1234.github.io/img/download/enemyBOMBER.png");
+    background-repeat: repeat-y;
+     background-size: contain;
+  width: 450px;
+  height: 450px;
+  position: relative;
+   top: 0;
+    animation: flying 3s linear infinite;
+ 
+
+}
+@keyframes flying {
+    0%   {top:-1200px;}
+    100% {top:1200px;}
+ }
+
+@-webkit-keyframes flying {
+    0%   {top:-50px;}
+    100% {top:1200px;}
+ }
+#enemy2 {
+    background: url("https://engi1234.github.io/img/download/enemyBOMBER.png");
+    background-repeat: repeat-y;
+     background-size: contain;
+  width: 450px;
+  height: 450px;
+  position: relative;
+   top:0;
+    animation: flying2 3s linear infinite;
+  left:30%;
+    
+    
+ 
+
+}
+@keyframes flying2 {
+    0%   {top:-1200px;}
+    100% {top:1200px;}
+ }
+
+@-webkit-keyframes flying2 {
+    0%   {top:-1200px;}
+    100% {top:1200px;}
+ }
+
